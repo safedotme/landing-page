@@ -5,7 +5,7 @@
 
 > Safe is an open source mobile platorm to discretely capture incidents with ease, powered by an SMCE written in native Swift and Kotlin.
 
-The official web presence for Morph.
+The official web presence for Safe.
 
 
 
