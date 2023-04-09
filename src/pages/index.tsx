@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import BubbleAnimation from "~/components/bubbles.comp";
+import Hook from "~/components/hook.comp";
 import Header from "~/components/header.comp";
 import NavBar from "~/components/navbar.comp";
 
@@ -18,8 +18,12 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <div className="relative h-screen">
-          <BubbleAnimation />
-          <Header />
+          <div className="relative h-screen w-screen">
+            <Header />
+            <Hook />
+          </div>
+
+          <div className="h-[1000px] w-screen"></div>
           <NavBar />
         </div>
       </main>
