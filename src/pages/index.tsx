@@ -19,6 +19,7 @@ const Home: NextPage = () => {
         <div className="relative h-screen">
           <Header />
           <NavBar />
+          <div className="h-[100rem] w-1"></div>
         </div>
       </main>
     </>
