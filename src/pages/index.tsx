@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import BubbleAnimation from "~/components/bubbles.comp";
 import Header from "~/components/header.comp";
 import NavBar from "~/components/navbar.comp";
 
@@ -15,11 +16,11 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-grey-900">
+      <main>
         <div className="relative h-screen">
+          <BubbleAnimation />
           <Header />
           <NavBar />
-          <div className="h-[100rem] w-1"></div>
         </div>
       </main>
     </>

@@ -4,7 +4,7 @@ const NavButton = () => {
       <div
         className="flex h-[48px] flex-row items-center justify-center space-x-[10px] rounded-3xl bg-gradient-to-r from-grad-400 via-grad-500 to-grad-600 px-[25px]"
         onClick={() => {
-          console.log("hello world");
+          // TODO: Implement to-do functionality
         }}
       >
         <img src="apple.svg" className="h-[21px] pb-[2px]" />
