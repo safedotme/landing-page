@@ -6,8 +6,6 @@ const Hook = () => {
     autoplay: true,
   });
 
-  const genSize = () => {};
-
   return (
     <div className="left-0 right-0 flex w-screen justify-center bg-transparent">
       <div className=" absolute bottom-[-100px] flex h-[85vh] w-[147vh]">
