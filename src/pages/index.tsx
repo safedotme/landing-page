@@ -4,6 +4,7 @@ import Link from "next/link";
 import Hook from "~/components/hook.comp";
 import Header from "~/components/header.comp";
 import NavBar from "~/components/navbar.comp";
+import StoryBanner from "~/components/story_banner.comp";
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,8 @@ const Home: NextPage = () => {
             <Header />
             <Hook />
           </div>
+          <div className="h-[425px]" />
+          <StoryBanner />
 
           <div className="h-[1000px] w-screen"></div>
           <NavBar />
