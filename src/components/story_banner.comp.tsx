@@ -8,11 +8,11 @@ const StoryBanner = () => {
           </p>
           <p className="font-display text-[1.1rem] font-[400] text-[#B4B5B9]/[0.8]">
             Safe is a social impact venture founded to expose and mitigate
-            injustice and discrimination
+            injustice
           </p>
         </div>
         <button
-          className="m-auto flex flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] px-[18px] py-[11px] font-display font-[500] text-[#C127BF] transition-all duration-300 hover:scale-[1.05] hover:bg-[#C127BF4D]"
+          className="m-auto flex flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] px-[18px] py-[11px] font-display font-[500] text-[#C127BF] transition-all duration-300 hover:scale-[1.05] hover:bg-[#C127BF40]"
           onClick={() => {
             //TODO: Implement onClick
           }}
