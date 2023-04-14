@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import NavButton from "./navbutton.comp";
+import NavButton from "./NavBarButton";
 
 const NavBar = () => {
   const [scrollState, setScrollState] = useState(false);

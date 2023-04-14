@@ -1,4 +1,4 @@
-const Header = () => {
+const HookHeader = () => {
   return (
     <div className="w-screen ">
       <div className="mx-auto flex  flex-col items-center space-y-[18px] pt-[18vh]">
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HookHeader;
