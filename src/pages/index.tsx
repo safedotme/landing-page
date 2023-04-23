@@ -26,13 +26,13 @@ const Home: NextPage = () => {
             <HookHeader />
             <Hook />
           </div>
-          <div className="h-[425px]" />
+          <div className="sm:h-[350px] md:h-[425px]" />
           <StoryBanner />
-          <div className="h-[295px]" />
+          <div className="sm:h-[220px] md:h-[295px]" />
           <ActionsGroup />
           <div className="h-[65px]" />
           <LearnMoreButton />
-          <div className="h-[240px]" />
+          <div className="sm:h-[200px] md:h-[240px]" />
           <div className="mb-[70px] h-[1.5px] bg-white opacity-[0.1]" />
           <Footer />
           <div className="sm:h-[75px] lg:h-0" />

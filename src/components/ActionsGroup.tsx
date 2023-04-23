@@ -6,10 +6,10 @@ import Subheader from "./Subheader";
 const ActionsGroup = () => {
   return (
     <div className="flex flex-col justify-stretch">
-      <Header text="A dozen actions with the press of a button" />
+      <Header text="All you need in an emergency at the press of a button" />
       <div className="h-[16px]" />
       <Subheader text="In dangerous situations, don't worry about recording an incident or alerting your friends. Instead, activate Safe and focus on your safety. We'll handle everything else..." />
-      <div className="h-[100px]" />
+      <div className="sm:h-[70px] md:h-[100px]" />
       <DemoBox />
       <div className="h-[32px]" />
 

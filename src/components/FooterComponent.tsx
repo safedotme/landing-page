@@ -21,7 +21,7 @@ const FooterComponent = (props: FooterComponmentProps) => {
             key={i}
             className="mb-[14px] flex flex-row"
           >
-            <p className=" pr-[3px] text-left font-display text-[16px] font-[400] text-[#9C9B9C]">
+            <p className=" pr-[3px] text-left font-display text-[16px] font-[400] text-[#9C9B9C] transition-all hover:text-[#E6E6E6]">
               {item.text}
             </p>
             <img
