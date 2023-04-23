@@ -1,11 +1,13 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import Hook from "~/components/hook.comp";
-import HookHeader from "~/components/hook_header.comp";
-import NavBar from "~/components/navbar.comp";
-import StoryBanner from "~/components/story_banner.comp";
-import ActionsGroup from "~/components/actions_group.comp";
+import Hook from "~/components/Hook";
+import HookHeader from "~/components/HookHeader";
+import NavBar from "~/components/NavBar";
+import StoryBanner from "~/components/StoryBanner";
+import ActionsGroup from "~/components/ActionsGroup";
+import LearnMoreButton from "~/components/LearnMoreButton";
+import Footer from "~/components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -28,8 +30,12 @@ const Home: NextPage = () => {
           <StoryBanner />
           <div className="h-[295px]" />
           <ActionsGroup />
-
-          <div className="h-[1000px] w-screen"></div>
+          <div className="h-[65px]" />
+          <LearnMoreButton />
+          <div className="h-[240px]" />
+          <div className="mb-[70px] h-[1.5px] bg-white opacity-[0.1]" />
+          <Footer />
+          <div className="sm:h-[75px] lg:h-0" />
           <NavBar />
         </div>
       </main>

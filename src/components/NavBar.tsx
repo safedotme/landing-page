@@ -22,7 +22,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed left-0 right-0 top-0 flex flex-row justify-between px-[3.5vw] pb-[12px] pt-[22px] ${
+      className={`fixed left-0 right-0 top-0 z-50 flex flex-row justify-between px-[3.5vw] pb-[12px] pt-[22px] ${
         scrollState
           ? "border-b-[#ffffff33] bg-[#0E0E0EB3]"
           : "border-b-transparent bg-transparent"
