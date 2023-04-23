@@ -1,3 +1,5 @@
+import ArrowIcon from "./Arrow";
+
 const StoryBanner = () => {
   return (
     <div className=" flex overflow-hidden rounded-[14px] bg-gradient-to-r from-[#EE813133] via-[#EA336CCC] to-[#C127BF33] sm:mx-[30px] lg:mx-auto lg:w-[955px]">
@@ -12,12 +14,17 @@ const StoryBanner = () => {
           </p>
         </div>
         <button
-          className="m-auto flex flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] px-[18px] py-[11px] font-display font-[500] text-[#C127BF] transition-all duration-300 hover:scale-[1.05] hover:bg-[#C127BF40]"
+          className="m-auto flex flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] transition-all duration-300 hover:scale-[1.05]  hover:bg-[#C127BF40] sm:p-[18px] lg:px-[18px] lg:py-[11px]"
           onClick={() => {
             //TODO: Implement onClick
           }}
         >
-          View Story →
+          <p className="pr-[3px] font-display font-[500] text-[#C127BF] sm:hidden lg:block">
+            View Story
+          </p>
+          <div className="mt-[2px] sm:scale-[1.3] lg:scale-[1]">
+            <ArrowIcon color="#C127BF" />
+          </div>
         </button>
       </div>
     </div>
