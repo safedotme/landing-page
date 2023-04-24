@@ -10,8 +10,8 @@ const Hook = () => {
   const wWidth = useWindowWidth();
   const width = 100;
   const [border, setBorder] = useState("border-md.svg");
-  const [scale, setScale] = useState("0.9");
-  const [bottom, setBottom] = useState("225");
+
+  const [isSmall, setIsSmall] = useState(true);
 
   const handleResize = (w: number) => {
     if (w > 1000) {
@@ -21,11 +21,9 @@ const Hook = () => {
     }
 
     if (w > 500) {
-      setScale("1");
-      setBottom("125");
+      setIsSmall(false);
     } else {
-      setScale("0.9");
-      setBottom("225");
+      setIsSmall(true);
     }
   };
 
@@ -40,7 +38,11 @@ const Hook = () => {
       <img src={border} className="absolute bottom-[-105px] w-screen" />
       <img
         src="screen.png"
-        className={`absolute bottom-[-${bottom}px] w-[312px] scale-[${scale}]`}
+        className={
+          isSmall
+            ? "absolute bottom-[-225px] w-[312px] scale-[0.9]"
+            : "absolute bottom-[-125px] w-[312px] scale-[1]"
+        }
       />
       <div className="absolute bottom-[-288px] h-[400px] rounded-[50%/50%_50%_50%_50%] bg-[#EA336C] bg-opacity-[0.4] blur-[100px] sm:w-screen md:w-screen lg:w-[900px]" />
     </div>
