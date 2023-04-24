@@ -1,10 +1,11 @@
+import data from "../data.json";
+
 const LearnMoreButton = () => {
   return (
     <button
       className="mx-auto flex flex-row p-[10px] transition-all hover:scale-[1.03]"
       onClick={() => {
-        console.log("Go to learn more");
-        //TODO: Implement onCLick
+        window.open(data.docs, "_blank");
       }}
     >
       <p className="font-display text-[17px] font-[600]">

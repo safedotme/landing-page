@@ -1,4 +1,5 @@
 import FooterComponent from "./FooterComponent";
+import data from "../data.json";
 
 const Footer = () => {
   return (
@@ -16,26 +17,26 @@ const Footer = () => {
             {
               text: "App Store",
               onClick: () => {
-                console.log("Go to app store");
+                window.open(data.download, "_blank");
               },
             },
             {
               text: "Help Center",
               onClick: () => {
-                console.log("Go to help center");
+                window.open(data.docs, "_blank");
               },
             },
             {
               text: "How to Contribute",
               onClick: () => {
-                console.log("Go to contributors");
+                window.open(data.how_to_contribute, "_blank");
               },
               isLink: true,
             },
             {
-              text: "Rate the App",
+              text: "Report a Bug",
               onClick: () => {
-                console.log("Rate the app");
+                window.open(data.bug, "_blank");
               },
               isLink: true,
             },
@@ -47,31 +48,31 @@ const Footer = () => {
             {
               text: "The Safe Story",
               onClick: () => {
-                console.log("Go to story");
+                window.open(data.story, "_blank");
               },
             },
             {
               text: "Contributors",
               onClick: () => {
-                console.log("Go to contributors");
+                window.open(data.contributors, "_blank");
               },
             },
             {
               text: "Privacy Policy",
               onClick: () => {
-                console.log("Go to priv pol");
+                window.open(data.privacy, "_blank");
               },
             },
             {
               text: "Terms of Service",
               onClick: () => {
-                console.log("Go to tos");
+                window.open(data.terms, "_blank");
               },
             },
             {
               text: "Press Kit",
               onClick: () => {
-                console.log("Go to press kit");
+                window.open(data.press, "_blank");
               },
               isLink: true,
             },
@@ -83,21 +84,22 @@ const Footer = () => {
             {
               text: "Email",
               onClick: () => {
-                console.log("Send email");
+                const emailLink = `mailto:${data.email}`;
+                window.location.href = emailLink;
               },
               isLink: true,
             },
             {
               text: "Twitter",
               onClick: () => {
-                console.log("Go to twitter");
+                window.open(data.twitter, "_blank");
               },
               isLink: true,
             },
             {
               text: "GitHub",
               onClick: () => {
-                console.log("Go to GitHub");
+                window.open(data.github, "_blank");
               },
               isLink: true,
             },

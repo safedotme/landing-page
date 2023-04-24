@@ -3,11 +3,11 @@ import ActionHeader from "./ActionHeader";
 import ActionIcon from "./ActionIcon";
 import AppPreview from "./AppPreview";
 import DemoButton from "./DemoButton";
+import data from "../data.json";
 
 const DemoBox = () => {
   const handleDownloadClick = () => {
-    // TODO: Handle click
-    console.log("Handle click");
+    window.open(data.download, "_blank");
   };
 
   return (

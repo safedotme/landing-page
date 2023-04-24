@@ -1,4 +1,5 @@
 import ArrowIcon from "./Arrow";
+import data from "../data.json";
 
 const StoryBanner = () => {
   return (
@@ -16,8 +17,7 @@ const StoryBanner = () => {
         <button
           className="m-auto flex flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] transition-all duration-300 hover:scale-[1.05]  hover:bg-[#C127BF40] sm:p-[18px] lg:px-[18px] lg:py-[11px]"
           onClick={() => {
-            console.log("Go to story");
-            //TODO: Implement onClick
+            window.open(data.story, "_blank");
           }}
         >
           <p className="pr-[3px] font-display font-[500] text-[#C127BF] sm:hidden lg:block">
