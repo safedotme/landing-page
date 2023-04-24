@@ -14,16 +14,16 @@ const StoryBanner = () => {
             injustice
           </p>
           <button
-            className=" w-[125px] flex-row space-x-[4px] rounded-[14px] bg-[#C127BF26] px-[14px] py-[8px] transition-all duration-300 hover:scale-[1.05]  hover:bg-[#C127BF40] sm:flex md:hidden"
+            className=" w-[125px] flex-row space-x-[4px] rounded-[14px] bg-[#EA336C26] px-[14px] py-[8px] transition-all duration-300 hover:scale-[1.05]  hover:bg-[#C127BF40] sm:flex md:hidden"
             onClick={() => {
               window.open(data.story, "_blank");
             }}
           >
-            <p className="pr-[3px] font-display text-[0.9rem] font-[600] text-[#C127BF]">
+            <p className="pr-[3px] font-display text-[0.9rem] font-[600] text-[#EA336C]">
               View Story
             </p>
             <div className="mt-[2px] sm:scale-[1.3] lg:scale-[1]">
-              <ArrowIcon color="#C127BF" />
+              <ArrowIcon color="#EA336C" />
             </div>
           </button>
         </div>
