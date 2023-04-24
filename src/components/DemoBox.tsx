@@ -16,7 +16,7 @@ const DemoBox = () => {
       style={{ backgroundImage: "url('gradient.webp')" }}
     >
       <div className="z-1 absolute inset-0 rounded-[14px] bg-grey-900 opacity-[0.25]" />
-      <div className="z-30 flex flex-col px-[60px] sm:my-[60px] sm:w-full md:my-auto md:w-[565px]">
+      <div className="z-30 flex flex-col sm:my-[60px] sm:w-full sm:px-[40px] md:my-auto md:w-[565px] md:px-[60px]">
         <ActionIcon icon="lightning" />
         <div className="h-[28px]" />
         <ActionHeader text="A dozen actions in one button" />

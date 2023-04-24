@@ -15,7 +15,7 @@ const ActionsGroup = () => {
 
       <div className=" sm:mx-[20px] sm:flex sm:flex-col md:mx-[32px] lg:flex-row xl:mx-auto xl:w-[1100px]">
         <div className="w-full flex-col rounded-[14px] bg-[#181719] sm:flex sm:h-[600px] md:h-[754px] lg:flex-[27]">
-          <div className="mx-[60px] mt-[60px]">
+          <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
             <ActionInfo
               icon="warn"
               header="Notify your friends & family"
@@ -31,14 +31,14 @@ const ActionsGroup = () => {
 
         <div className="sm:h-[32px] sm:w-0 lg:h-0 lg:w-[32px]" />
         <div className="flex w-full flex-col rounded-[14px] bg-[#181719] sm:flex sm:h-[600px] md:h-[754px] lg:flex-[20]">
-          <div className="mx-[60px] mt-[60px]">
+          <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
             <ActionInfo
               icon="cloud"
               header="We'll livestream & store everything"
               body="Your emergency contacts will be able to track your live location and watch a video stream of whats going on in real-time."
             />
           </div>
-          <div className="mx-[60px] my-auto">
+          <div className="my-auto sm:mx-[40px] md:mx-[60px]">
             <img
               src="map.webp"
               className="relative mx-auto drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] sm:w-[380px] sm:rounded-[18px] md:rounded-[26px] lg:w-full"
