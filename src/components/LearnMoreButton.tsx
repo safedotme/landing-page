@@ -3,6 +3,7 @@ const LearnMoreButton = () => {
     <button
       className="mx-auto flex flex-row p-[10px] transition-all hover:scale-[1.03]"
       onClick={() => {
+        console.log("Go to learn more");
         //TODO: Implement onCLick
       }}
     >

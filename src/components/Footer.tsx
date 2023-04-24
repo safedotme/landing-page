@@ -13,28 +13,94 @@ const Footer = () => {
         <FooterComponent
           header="Product"
           items={[
-            { text: "App Store", onClick: () => {} },
-            { text: "Help Center", onClick: () => {} },
-            { text: "How to Contribute", onClick: () => {}, isLink: true },
-            { text: "Rate the App", onClick: () => {}, isLink: true },
+            {
+              text: "App Store",
+              onClick: () => {
+                console.log("Go to app store");
+              },
+            },
+            {
+              text: "Help Center",
+              onClick: () => {
+                console.log("Go to help center");
+              },
+            },
+            {
+              text: "How to Contribute",
+              onClick: () => {
+                console.log("Go to contributors");
+              },
+              isLink: true,
+            },
+            {
+              text: "Rate the App",
+              onClick: () => {
+                console.log("Rate the app");
+              },
+              isLink: true,
+            },
           ]}
         />
         <FooterComponent
           header="Initiative"
           items={[
-            { text: "The Safe Story", onClick: () => {} },
-            { text: "Contributors", onClick: () => {} },
-            { text: "Privacy Policy", onClick: () => {} },
-            { text: "Terms of Service", onClick: () => {} },
-            { text: "Press Kit", onClick: () => {}, isLink: true },
+            {
+              text: "The Safe Story",
+              onClick: () => {
+                console.log("Go to story");
+              },
+            },
+            {
+              text: "Contributors",
+              onClick: () => {
+                console.log("Go to contributors");
+              },
+            },
+            {
+              text: "Privacy Policy",
+              onClick: () => {
+                console.log("Go to priv pol");
+              },
+            },
+            {
+              text: "Terms of Service",
+              onClick: () => {
+                console.log("Go to tos");
+              },
+            },
+            {
+              text: "Press Kit",
+              onClick: () => {
+                console.log("Go to press kit");
+              },
+              isLink: true,
+            },
           ]}
         />
         <FooterComponent
           header="Reach Out"
           items={[
-            { text: "Email", onClick: () => {}, isLink: true },
-            { text: "Twitter", onClick: () => {}, isLink: true },
-            { text: "GitHub", onClick: () => {}, isLink: true },
+            {
+              text: "Email",
+              onClick: () => {
+                console.log("Send email");
+              },
+              isLink: true,
+            },
+            {
+              text: "Twitter",
+              onClick: () => {
+                console.log("Go to twitter");
+              },
+              isLink: true,
+            },
+            {
+              text: "GitHub",
+              onClick: () => {
+                console.log("Go to GitHub");
+              },
+              isLink: true,
+            },
           ]}
         />
       </div>

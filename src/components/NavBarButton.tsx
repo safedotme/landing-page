@@ -4,6 +4,7 @@ const NavButton = () => {
       <div
         className="flex h-[43px] flex-row items-center justify-center space-x-[8px] rounded-3xl bg-gradient-to-r from-grad-400 via-grad-500 to-grad-600 px-[24px]"
         onClick={() => {
+          console.log("Go to download");
           // TODO: Implement to-do functionality
         }}
       >
