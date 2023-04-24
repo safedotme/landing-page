@@ -37,7 +37,7 @@ const Hook = () => {
 
       <img src={border} className="absolute bottom-[-105px] w-screen" />
       <img
-        src="screen.png"
+        src="screen.webp"
         className={
           isSmall
             ? "absolute bottom-[-225px] w-[312px] scale-[0.9]"

@@ -20,7 +20,7 @@ const StoryBanner = () => {
             window.open(data.story, "_blank");
           }}
         >
-          <p className="pr-[3px] font-display font-[500] text-[#C127BF] sm:hidden lg:block">
+          <p className="pr-[3px] font-display font-[600] text-[#C127BF] sm:hidden lg:block">
             View Story
           </p>
           <div className="mt-[2px] sm:scale-[1.3] lg:scale-[1]">

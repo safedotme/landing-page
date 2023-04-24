@@ -13,7 +13,7 @@ const DemoBox = () => {
   return (
     <div
       className={`relative rounded-[14px] bg-cover bg-center sm:mx-[20px] sm:flex sm:h-[970px] md:mx-[37px] md:h-[754px] xl:mx-auto xl:w-[1100px]`}
-      style={{ backgroundImage: "url('gradient.png')" }}
+      style={{ backgroundImage: "url('gradient.webp')" }}
     >
       <div className="z-1 absolute inset-0 rounded-[14px] bg-grey-900 opacity-[0.25]" />
       <div className="z-30 flex flex-col px-[60px] sm:my-[60px] sm:w-full md:my-auto md:w-[565px]">

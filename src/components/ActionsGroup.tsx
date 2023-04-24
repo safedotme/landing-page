@@ -24,7 +24,7 @@ const ActionsGroup = () => {
           </div>
           <div className=" h-full" />
           <img
-            src="friends.png"
+            src="friends.webp"
             className="mx-auto sm:w-full md:w-[760px] lg:w-full"
           />
         </div>
@@ -41,7 +41,7 @@ const ActionsGroup = () => {
           <div className="h-[84px]" />
           <div className="mx-[60px]">
             <img
-              src="map.png"
+              src="map.webp"
               className="relative mx-auto rounded-[26px] drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] sm:w-[380px] lg:w-full"
             />
           </div>

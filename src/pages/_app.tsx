@@ -6,28 +6,18 @@ import "~/styles/globals.css";
 const font = localFont({
   src: [
     {
-      path: "../../public/font/regular.otf",
+      path: "../../public/font/regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/font/medium.otf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../public/font/semibold.otf",
+      path: "../../public/font/semibold.woff2",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../../public/font/bold.otf",
+      path: "../../public/font/bold.woff2",
       weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../../public/font/heavy.otf",
-      weight: "800",
       style: "normal",
     },
   ],
