@@ -21,6 +21,11 @@ const font = localFont({
       style: "normal",
     },
     {
+      path: "../../public/font/bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
       path: "../../public/font/heavy.otf",
       weight: "800",
       style: "normal",

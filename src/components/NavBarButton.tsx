@@ -10,7 +10,7 @@ const NavButton = () => {
         }}
       >
         <img src="apple.svg" className="h-[18px] pb-[2px]" />
-        <p className="font-display text-[1.02rem] font-bold text-white">
+        <p className="font-display text-[1.02rem] font-[700] text-white">
           Download Now
         </p>
       </div>
