@@ -21,9 +21,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
-          content="user-scalable=no, width=device-width, initial-scale=1.0"
-        />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
+          content="width=device-width, initial-scale=1"
+        ></meta>
       </Head>
       <main>
         <div className="relative h-screen">
