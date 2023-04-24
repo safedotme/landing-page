@@ -40,7 +40,7 @@ const Hook = () => {
         src="screen.webp"
         className={
           isSmall
-            ? "absolute bottom-[-225px] w-[312px] scale-[0.9]"
+            ? "absolute bottom-[-225px] w-[312px] scale-[0.8]"
             : "absolute bottom-[-125px] w-[312px] scale-[1]"
         }
       />

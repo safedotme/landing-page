@@ -4,7 +4,7 @@ interface ActionHeaderProps {
 
 const ActionHeader = (props: ActionHeaderProps) => {
   return (
-    <p className="font-display font-[600] sm:text-[1.2rem] md:text-[1.3rem]">
+    <p className="font-display font-[600] sm:text-[1.02rem] md:text-[1.3rem]">
       {props.text}
     </p>
   );

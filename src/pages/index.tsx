@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           <ActionsGroup />
           <div className="h-[65px]" />
           <LearnMoreButton />
-          <div className="sm:h-[200px] md:h-[240px]" />
+          <div className="sm:h-[150px] md:h-[240px]" />
           <div className="mb-[70px] h-[1.5px] bg-white opacity-[0.1]" />
           <Footer />
           <div className="sm:h-[75px] lg:h-0" />

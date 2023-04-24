@@ -28,7 +28,7 @@ const NavBar = () => {
           : "border-b-transparent bg-transparent"
       } border-b backdrop-blur-[60px] transition-all delay-0 duration-200`}
     >
-      <img src="logo.png" className="h-[43px]" />
+      <img src="logo.png" className="h-[43px] sm:scale-[0.85] md:scale-[1]" />
       <NavButton />
     </div>
   );

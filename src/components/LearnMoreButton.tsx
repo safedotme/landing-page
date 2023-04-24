@@ -8,7 +8,7 @@ const LearnMoreButton = () => {
         window.open(data.docs, "_blank");
       }}
     >
-      <p className="font-display text-[17px] font-[600]">
+      <p className="font-display font-[600] sm:text-[0.92rem] md:text-[1.06rem]">
         Learn more in our docs
       </p>
       <div className="w-[8px]" />

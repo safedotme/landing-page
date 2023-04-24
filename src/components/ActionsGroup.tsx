@@ -30,7 +30,7 @@ const ActionsGroup = () => {
         </div>
 
         <div className="sm:h-[32px] sm:w-0 lg:h-0 lg:w-[32px]" />
-        <div className="flex h-[754px] w-full flex-col rounded-[14px] bg-[#181719] sm:flex lg:flex-[20]">
+        <div className="flex w-full flex-col rounded-[14px] bg-[#181719] sm:flex sm:h-[600px] md:h-[754px] lg:flex-[20]">
           <div className="mx-[60px] mt-[60px]">
             <ActionInfo
               icon="cloud"
@@ -38,11 +38,10 @@ const ActionsGroup = () => {
               body="Your emergency contacts will be able to track your live location and watch a video stream of whats going on in real-time."
             />
           </div>
-          <div className="h-[84px]" />
-          <div className="mx-[60px]">
+          <div className="mx-[60px] my-auto">
             <img
               src="map.webp"
-              className="relative mx-auto rounded-[26px] drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] sm:w-[380px] lg:w-full"
+              className="relative mx-auto drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] sm:w-[380px] sm:rounded-[18px] md:rounded-[26px] lg:w-full"
             />
           </div>
         </div>
