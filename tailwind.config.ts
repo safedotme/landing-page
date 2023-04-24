@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "display": ["SF Pro Rounded"],
+        display: ["var(--font-sfrounded)"],
+        
       },
       screens: {
         'sm': '340px',
