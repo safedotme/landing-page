@@ -18,6 +18,7 @@
       overflow-x: hidden;
       background-color: #070508;
       position: relative;
+      -webkit-backface-visibility: hidden;
     }
   }
 
