@@ -1,5 +1,5 @@
 interface ActionDescriptionProps {
-  text: String;
+  text: string;
 }
 
 const ActionDescription = (props: ActionDescriptionProps) => {

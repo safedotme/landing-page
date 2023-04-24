@@ -1,10 +1,10 @@
 interface FooterComponmentProps {
-  header: String;
+  header: string;
   items: FooterItem[];
 }
 
 interface FooterItem {
-  text: String;
+  text: string;
   isLink?: boolean;
   onClick: () => void;
 }

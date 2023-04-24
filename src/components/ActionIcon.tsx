@@ -1,5 +1,5 @@
 interface ActionIconProps {
-  icon: String;
+  icon: string;
 }
 
 const ActionIcon = (props: ActionIconProps) => {

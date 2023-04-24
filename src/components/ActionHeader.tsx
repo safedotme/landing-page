@@ -1,5 +1,5 @@
 interface ActionHeaderProps {
-  text: String;
+  text: string;
 }
 
 const ActionHeader = (props: ActionHeaderProps) => {

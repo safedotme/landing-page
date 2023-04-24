@@ -1,5 +1,5 @@
 interface DemoButtonProps {
-  text: String;
+  text: string;
   onClick: () => void;
 }
 

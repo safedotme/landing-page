@@ -3,9 +3,9 @@ import ActionHeader from "./ActionHeader";
 import ActionIcon from "./ActionIcon";
 
 interface ActionInfoProps {
-  body: String;
-  header: String;
-  icon: String;
+  body: string;
+  header: string;
+  icon: string;
 }
 
 const ActionInfo = (props: ActionInfoProps) => {
