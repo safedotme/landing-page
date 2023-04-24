@@ -6,19 +6,15 @@
 
  body {
     background-color: #070508;
-    position: relative;
+    overflow-x: hidden;
   }
   
-  body {
-    position: relative;
-  }
+
   
   @media (max-width: 420px) {
     html, body {
       overflow-x: hidden;
       background-color: #070508;
-      position: relative;
-      -webkit-backface-visibility: hidden;
     }
   }
 
