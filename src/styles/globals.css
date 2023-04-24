@@ -4,11 +4,22 @@
     color-scheme: dark;
   }
 
-body {
-  background-color: #070508;
-  overflow-x: hidden;
-  position: relative;
-}
+ body {
+    background-color: #070508;
+    position: relative;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  @media (max-width: 420px) {
+    html, body {
+      overflow-x: hidden;
+      background-color: #070508;
+      position: relative;
+    }
+  }
 
 
 

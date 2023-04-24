@@ -19,10 +19,7 @@ const Home: NextPage = () => {
           content="A violence encounter tool in your pocket."
         />
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <div className="relative h-screen">
