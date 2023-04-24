@@ -12,11 +12,11 @@ const DemoBox = () => {
 
   return (
     <div
-      className={`relative rounded-[14px] bg-cover bg-center sm:mx-[20px] sm:flex sm:h-[970px] md:mx-[37px] lg:h-[754px] xl:mx-auto xl:w-[1100px]`}
+      className={`relative rounded-[14px] bg-cover bg-center sm:mx-[20px] sm:flex sm:h-[970px] md:mx-[37px] md:h-[754px] xl:mx-auto xl:w-[1100px]`}
       style={{ backgroundImage: "url('gradient.png')" }}
     >
       <div className="z-1 absolute inset-0 rounded-[14px] bg-grey-900 opacity-[0.25]" />
-      <div className="z-30 flex flex-col px-[60px] sm:my-[60px] sm:w-full lg:my-auto lg:w-[565px]">
+      <div className="z-30 flex flex-col px-[60px] sm:my-[60px] sm:w-full md:my-auto md:w-[565px]">
         <ActionIcon icon="lightning" />
         <div className="h-[28px]" />
         <ActionHeader text="A dozen actions in one button" />
@@ -25,7 +25,7 @@ const DemoBox = () => {
         <div className="h-[28px]" />
         <DemoButton text="Download for iOS" onClick={handleDownloadClick} />
       </div>
-      <div className="z-20 h-[627px] sm:absolute sm:top-[370px] sm:w-full sm:scale-[0.8] lg:relative lg:top-[64px] lg:w-[650px] lg:scale-[1]">
+      <div className="z-20 h-[627px] sm:absolute sm:top-[370px] sm:w-full sm:scale-[0.8] md:relative md:top-[64px] md:w-[650px] md:scale-[1]">
         <AppPreview />
       </div>
     </div>
