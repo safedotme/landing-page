@@ -25,7 +25,7 @@ const DemoBox = () => {
         <div className="h-[28px]" />
         <DemoButton text="Download for iOS" onClick={handleDownloadClick} />
       </div>
-      <div className="z-20 h-[627px] sm:absolute sm:top-[370px] sm:w-full sm:scale-[0.8] md:relative md:top-[64px] md:w-[650px] md:scale-[1]">
+      <div className="z-20 h-[592px] sm:absolute sm:top-[370px] sm:w-full sm:scale-[0.8] md:relative md:top-[64px] md:w-[650px] md:scale-[1]">
         <AppPreview />
       </div>
     </div>
