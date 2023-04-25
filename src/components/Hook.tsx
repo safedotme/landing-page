@@ -1,4 +1,4 @@
-import { useWindowWidth } from "@react-hook/window-size";
+import { useWindowHeight, useWindowWidth } from "@react-hook/window-size";
 import { useRive } from "@rive-app/react-canvas";
 import { useEffect, useState } from "react";
 
@@ -8,12 +8,14 @@ const Hook = () => {
     autoplay: true,
   });
   const wWidth = useWindowWidth();
-  const width = 100;
+  const wHeight = useWindowHeight();
+
   const [border, setBorder] = useState("border-md.svg");
 
-  const [isSmall, setIsSmall] = useState(true);
+  const [isWSmall, setIsWSmall] = useState(true);
+  const [isHSmall, setIsHSmall] = useState(false);
 
-  const handleResize = (w: number) => {
+  const handleResize = (w: number, h: number) => {
     if (w > 1000) {
       setBorder("border-lg.svg");
     } else {
@@ -21,13 +23,19 @@ const Hook = () => {
     }
 
     if (w > 500) {
-      setIsSmall(false);
+      setIsWSmall(false);
     } else {
-      setIsSmall(true);
+      setIsWSmall(true);
+    }
+
+    if (h > 900) {
+      setIsHSmall(false);
+    } else {
+      setIsHSmall(true);
     }
   };
 
-  useEffect(() => handleResize(wWidth), [wWidth]);
+  useEffect(() => handleResize(wWidth, wHeight), [wWidth, wHeight]);
 
   return (
     <div className="left-0 right-0 flex w-screen justify-center bg-transparent">
@@ -39,9 +47,9 @@ const Hook = () => {
       <img
         src="screen.webp"
         className={
-          isSmall
-            ? "absolute bottom-[-225px] w-[312px] scale-[0.8]"
-            : "absolute bottom-[-125px] w-[312px] scale-[1]"
+          isWSmall || isHSmall
+            ? "absolute bottom-[-225px] h-[80vh] max-h-[674px] max-w-[312px]"
+            : "absolute bottom-[-125px] h-[80vh] max-h-[674px] max-w-[312px]"
         }
       />
       <div className="absolute bottom-[-288px] h-[400px] rounded-[50%/50%_50%_50%_50%] bg-[#EA336C] bg-opacity-[0.4] blur-[100px] sm:w-screen md:w-screen lg:w-[900px]" />
