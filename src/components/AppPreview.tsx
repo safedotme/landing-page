@@ -8,8 +8,6 @@ const AppPreview = () => {
           src="demo.mp4"
           autoPlay
           loop
-          playsInline
-          controls
           muted
           className="h-full rounded-[22px] border-[2px] border-[#ffffff4d]"
         />
