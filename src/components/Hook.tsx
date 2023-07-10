@@ -45,7 +45,10 @@ const Hook = () => {
         <RiveComponent />
       </div>
 
-      <img src={border} className="absolute bottom-[-105px] w-screen" />
+      <img
+        src={border}
+        className="absolute bottom-[-105px] sm:w-[103vw] md:w-screen"
+      />
       <img
         src="screen.webp"
         className={
