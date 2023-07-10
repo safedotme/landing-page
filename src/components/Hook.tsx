@@ -47,7 +47,7 @@ const Hook = () => {
 
       <img
         src={border}
-        className="absolute bottom-[-105px] sm:w-[103vw] md:w-screen"
+        className="absolute w-screen sm:bottom-[-101px] md:bottom-[-105px]"
       />
       <img
         src="screen.webp"
