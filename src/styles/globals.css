@@ -6,14 +6,14 @@
 
  body {
     background-color: #070508;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   
 
   
   @media (max-width: 420px) {
     html, body {
-      overflow-x: hidden;
+      overflow-x: clip;
       background-color: #070508;
     }
   }

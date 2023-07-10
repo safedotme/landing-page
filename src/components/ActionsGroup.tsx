@@ -24,8 +24,12 @@ const ActionsGroup = () => {
           </div>
           <div className=" h-full" />
           <img
-            src="friends.webp"
-            className="mx-auto sm:w-full md:w-[760px] lg:w-full"
+            src="friends-sm.webp"
+            className="w-full px-[12px] pb-[8px] sm:visible md:hidden"
+          />
+          <img
+            src="friends-md.webp"
+            className="sm:h-[0px] sm:opacity-[0] md:mx-auto md:h-full md:w-[760px] md:opacity-[100] lg:w-full"
           />
         </div>
 
