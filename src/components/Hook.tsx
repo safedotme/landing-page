@@ -18,8 +18,10 @@ const Hook = () => {
   const handleResize = (w: number, h: number) => {
     if (w > 1000) {
       setBorder("border-lg.svg");
-    } else {
+    } else if (w > 500) {
       setBorder("border-md.svg");
+    } else {
+      setBorder("border-sm.svg");
     }
 
     if (w > 500) {
