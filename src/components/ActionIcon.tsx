@@ -1,5 +1,6 @@
 interface ActionIconProps {
   icon: string;
+  isIconPng?: boolean;
 }
 
 const ActionIcon = (props: ActionIconProps) => {
@@ -12,7 +13,7 @@ const ActionIcon = (props: ActionIconProps) => {
       }}
     >
       <img
-        src={`${props.icon}.svg`}
+        src={`${props.icon}.${props.isIconPng ? "png" : "svg"}`}
         className="sm:h-[32px] sm:w-[32px] md:h-[37px] md:w-[37px]"
       />
     </div>
