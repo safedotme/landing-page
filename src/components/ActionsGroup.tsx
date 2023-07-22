@@ -61,8 +61,8 @@ const ActionsGroup = () => {
           <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
             <ActionInfo
               icon="lockscreen"
-              header="We'll livestream & store everything"
-              body="Your emergency contacts will be able to track your live location and watch a video stream of whats going on in real-time."
+              header="Accessible through your lock-screen"
+              body="In an emergency, activate Safe directly from your lock screen by tapping on our widget."
             />
           </div>
           <div className="my-auto sm:mx-[40px] md:mx-[60px]">
@@ -79,8 +79,8 @@ const ActionsGroup = () => {
           <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
             <ActionInfo
               icon="cloud"
-              header="Notify your friends & family"
-              body="Choose up to three individuals to be your emergency contacts. They will be notified whenever you activate the Safe app and receive real-time information/updates on the incident."
+              header="Download everything after the fact"
+              body="Download and view the data captured by Safe in sync. At any instant during the incident, obtain the phone’s battery life, exact location, state, and video frame."
             />
           </div>
           <div className="my-auto">
