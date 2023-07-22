@@ -75,7 +75,7 @@ const ActionsGroup = () => {
 
         <div className="sm:h-[32px] sm:w-0 lg:h-0 lg:w-[32px]" />
 
-        <div className="w-full flex-col rounded-[14px] bg-[#181719] sm:flex sm:h-[570px] md:h-[754px] lg:flex-[27]">
+        <div className="w-full flex-col rounded-[14px] bg-[#181719] sm:hidden sm:h-[570px] md:flex md:h-[754px] lg:flex-[27]">
           <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
             <ActionInfo
               icon="cloud"
