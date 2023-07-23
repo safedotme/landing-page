@@ -101,6 +101,32 @@ const ActionsGroup = () => {
             </div>
           </div>
         </div>
+
+        {/* Download row on mobile */}
+
+        <div className="w-full flex-col rounded-[14px] bg-[#181719] sm:flex sm:h-[570px] md:hidden md:h-[754px] lg:flex-[27]">
+          <div className="mt-[60px] sm:mx-[40px] md:mx-[60px]">
+            <ActionInfo
+              icon="cloud"
+              header="Download everything after the fact"
+              body="Download and view the data captured by Safe in sync. At any instant during the incident, obtain the phone’s battery life, exact location, state, and video frame."
+            />
+          </div>
+          <div className="my-auto">
+            <div className=" sm:mx-[20px] md:mx-[30px]">
+              <img
+                src="download.webp"
+                className="h-full border-[#ffffff4d]/[0.2] drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] sm:rounded-[20px] sm:border-[2px] lg:rounded-[30px] lg:border-[3px]"
+              />
+              <div className="sm:h-[15px] lg:h-[26px]" />
+              <a href="https://docs.joinsafe.me/demo">
+                <p className="text-right text-[0.938rem] text-[#575757] transition-all hover:text-[#848484]">
+                  View an incident captured by Safe →
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
